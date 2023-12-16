@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyag - The fasting application</title>
+
+    <!-- Favicon -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="images/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- End: Favicon -->
+
+    <!-- Required Social Preview MetaTags -->
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Tyag - The Fasting Application" />
+    <meta
+      name="description"
+      content="Do you find yourself forgetting your precious Sogans, Jaap, and other vital Jain practices? Reconnect with your spiritual essence using the Tyag app – your ultimate companion for a mindful and disciplined spiritual journey."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/Shreyans13/tyag-webpage" />
+    <meta
+      property="og:title"
+      content="Tyag - The Fasting Application"
+    />
+    <meta
+      property="og:description"
+      content="Do you find yourself forgetting your precious Sogans, Jaap, and other vital Jain practices? Reconnect with your spiritual essence using the Tyag app – your ultimate companion for a mindful and disciplined spiritual journey."
+    />
+    <meta property="og:image" content="images/preview.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://github.com/Shreyans13/tyag-webpage"
+    />
+    <meta
+      property="twitter:title"
+      content="Tyag - The Fasting Application"
+    />
+    <meta
+      property="twitter:description"
+      content="Do you find yourself forgetting your precious Sogans, Jaap, and other vital Jain practices? Reconnect with your spiritual essence using the Tyag app – your ultimate companion for a mindful and disciplined spiritual journey."
+    />
+    <meta property="twitter:image" content="images/preview.png" />
+
+    <!-- End of Required Social Preview MetaTags -->
+
+    <!-- LATO — Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End: LATO — Google Font -->
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <!-- End: Main CSS File -->
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Header Section -->
+    <header id="home">
+      <nav>
+        <div class="navbar-logo">
+          <a href="#" class="logo">Tyag</a>
+        </div>
+        <div id="navbar">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#testimonial">TESTIMONIAL</a></li>
+            <li><a href="#howto">HOW TO</a></li>
+            <li><a href="#download">DOWNLOAD</a></li>
+          </ul>
+        </div>
+        <div id="mobileNav">
+          <span onclick="openNav()">&#9776;</span>
+        </div>
+        <div id="myNav" class="mobileNavOverlay">
+          <div class="overlay-content">
+            <a href="javascript:void()" class="close-btn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="#home" onclick="closeNav()">HOME</a>
+            <a href="#features" onclick="closeNav()">FEATURES</a>
+            <a href="#testimonial" onclick="closeNav()">TESTIMONIAL</a>
+            <a href="#howto" onclick="closeNav()">HOW TO</a>
+            <a href="#download" onclick="closeNav()">DOWNLOAD</a>
+          </div>
+        </div>
+      </nav>
+      <div id="hero">
+        <div class="row">
+          <div class="col span_1_of_2">
+            <div class="hero-description">
+              <h1>
+                एक त्याग बदल सकता है  <br />
+                आपका जीवन | 
+              </h1>
+              <p>
+                With <span class="bold-text">Tyag</span>, you can track all your sogans ,
+                in one place.
+              </p>
+
+              <a href="#download" class="btn"
+                ><span class="download-btn"> Download Now</span></a
+              >
+            </div>
+          </div>
+          <div class="col span_1_of_2">
+            <img class="hero-img" src="images/1.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="shape-divider">
+        <div class="custom-shape-divider-bottom-1603385849">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="scrollUp" title="Go to top">
+        <svg
+          width="1.5rem"
+          height="1.5rem"
+          viewBox="0 0 16 16"
+          class="bi bi-arrow-up"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+          />
+        </svg>
+      </button>
+    </header>
+    <!-- End: Header Section -->
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="row">
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_1" src="images/features1.png" alt="" />
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="section-description features-description col1">
+            <h2 class="stylish_heading">
+              Spiritual Essence <span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              Do you find yourself forgetting your precious Sogans, Jaap, 
+              and other vital Jain practices? Reconnect with your spiritual 
+              essence using the <b>"Tyag"</b> app – your ultimate companion for a 
+              mindful and disciplined spiritual journey.
+              <br>
+              <br>
+              </p>
+              <b>Benefits:</b>
+              <br>
+              <p>
+
+<b>Soul Purification</b>: Deepen your connection with Jain principles.<br>
+<b>Progress Tracking</b>: Celebrate milestones with detailed insights.<br>
+<b>Community Connection</b>: Join a supportive community on your spiritual path.<br>
+<b>📲 Download "Tyag" now</b> and let your spiritual practices thrive!<br>
+</p>
+<br>
+
+<h4>Made in memory of Swa. Smt. Chand Devi Dugar<br>
+</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row second-features-row">
+        <div class="col span_1_of_2">
+          <div class="section-description features-description">
+            <h2 class="stylish_heading">
+              Your Own Profile <span class="red_dot">.</span>
+            </h2>
+            <p class="little-description">
+              Your own secured profile. Track your disciplined spiritual journey securely
+            </p>
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_3" src="images/features2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: Features Section -->
+
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+      <h2 class="stylish_heading">
+        What people say <span class="red_dot">.</span>
+      </h2>
+      <div class="row">
+        <div class="col span_1_of_3">
+          <div class="bubble">
+            <p class="message">
+              "Lorem ipsum dolor sit amet, onsectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim"
+            </p>
+            <span class="company-name">Booking.com</span>
+          </div>
+          <div class="client-info">
+            <img class="avatar" src="images/avatar1.jpg" alt="" />
+            <div class="name">
+              <h4>John Doe</h4>
+              <p class="role">CEO</p>
+            </div>
+          </div>
+        </div>
+        <div class="col span_1_of_3">
+          <div class="bubble">
+            <p class="message">
+              "Lorem ipsum dolor sit amet, onsectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim"
+            </p>
+            <span class="company-name">Airnbnb</span>
+          </div>
+          <div class="client-info">
+            <img class="avatar" src="images/avatar2.jpg" alt="" />
+            <div class="name">
+              <h4>John Doe</h4>
+              <p class="role">CEO</p>
+            </div>
+          </div>
+        </div>
+        <div class="col span_1_of_3">
+          <div class="bubble">
+            <p class="message">
+              "Lorem ipsum dolor sit amet, onsectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim"
+            </p>
+            <span class="company-name">Symu.co</span>
+          </div>
+          <div class="client-info">
+            <img class="avatar" src="images/avatar3.jpg" alt="" />
+            <div class="name">
+              <h4>John Doe</h4>
+              <p class="role">CEO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: Testimonial Section -->
+
+    <!-- How To Section -->
+    <section id="howto">
+      <div class="row">
+        <div class="col span_1_of_3 first-col">
+          <div class="first-item">
+            <div class="item-description">
+              <h4>Sogans Recording</h4>
+              <p>
+                Effortlessly capture and revisit your spiritual affirmations.
+              </p>
+            </div>
+            <div class="item-icon1">
+              <img src="images/3.png" alt="" />
+              
+              <!-- <svg
+                width="2.5rem"
+                height="2.5rem"
+                viewBox="0 0 16 16"
+                class="bi bi-chat-dots"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
+                />
+                <path
+                  d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                />
+              </svg> -->
+            </div>
+          </div>
+          <div class="first-item">
+            <div class="item-description">
+              <h4>Jaap Counter</h4>
+              <p>
+                Ensure your devotion stays consistent with mindful repetition.
+              </p>
+            </div>
+            <div class="item-icon1">
+              <img src="images/5.png" alt="" />
+
+              <!-- <svg
+                width="2.5rem"
+                height="2.5rem"
+                viewBox="0 0 16 16"
+                class="bi bi-telephone-outbound"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"
+                />
+              </svg> -->
+            </div>
+          </div>
+          <div class="first-item">
+            <div class="item-description">
+              <h4>Fastings & Austerity Tracker</h4>
+              <p>
+                Stay disciplined and achieve your spiritual goals.
+              </p>
+            </div>
+            <div class="item-icon1">
+              <img src="images/7.png" alt="" />
+              
+            </div>
+          </div>
+        </div>
+        <div class="col span_1_of_3 second-col">
+          <img class="big_image" src="images/2.png" alt="" />
+        </div>
+        <div class="col span_1_of_3 third-col">
+          <div class="last-item">
+            <div class="item-icon2">
+              <img src="images/4.png" alt="" />
+              
+            </div>
+            <div class="item-description">
+              <h4>Samayik Meditation Log</h4>
+              <p>
+                Record moments of reflection to enhance mindfulness.
+              </p>
+            </div>
+          </div>
+          <div class="last-item">
+            <div class="item-icon2">
+              <img src="images/6.png" alt="" />
+
+              <!-- <img src="https://cdn.jsdelivr.net/gh/200-DevelopersFound/SnapStore/tyag/quiet.png" alt="" /> -->
+              
+            </div>
+            <div class="item-description">
+              <h4>Maun (Silence) Timer</h4>
+              <p>
+                Embrace the power of silent contemplation.
+              </p>
+            </div>
+          </div>
+          <div class="last-item">
+            <div class="item-icon2">
+
+              <img src="images/app_logo_small.png" alt="" />
+
+              
+            </div>
+            <div class="item-description">
+              <h4>More features </h4>
+              <p>
+                More features like Jaap, Samayik etc comming soon 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End: How To Section -->
+
+    <section id="features">
+      <div class="row">
+        <div class="col span_1_of_2">
+          <div class="features-images">
+            <img class="features_1" src="https://cdn.jsdelivr.net/gh/200-DevelopersFound/SnapStore/tyag/dadisa.png" alt="" />
+          </div>
+        </div>
+        <div class="col span_1_of_2">
+          <div class="section-description features-description col1">
+            <h2 class="stylish_heading">
+              In Memory of  <span class="red_dot">.</span>
+            </h2>
+            <h3>Swa. Smt. Chand Devi Dugar</h3>
+            <p class="little-description">
+              सन् 1918 ईश्वी में वर्तमान में पश्चिम बंगाल के जलपाईगुड़ी में श्रीमान नथमल जी शाह के घर एक पुण्य आत्मा ने जन्म लिया जिसको सभी प्यार से चाँदकंवर  के नाम से पुकारते थे।  धार्मिक वातावरण में पली बढ़ी इस बालिका का विवाह दिनाजपुर ( वर्तमान में बंगलादेश ) के सेठ सहंसकरण जी के तृतीय पुत्र श्री सोहनलाल जी दुगड़ के साथ सम्पन्न हुआ । वे तेरापंथ धर्मसंघ में दिक्षित साध्वी साधना श्री जी कि संसार पक्षिया देवराणी थी ।
+              </p>
+              
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- Subscribe Section -->
+    <!-- <section id="subscribe"> -->
+      <!-- <div class="row">
+        <h2 class="stylish_heading">
+          In memory of  <span class="red_dot">.</span>
+        </h2>
+        <img class="app-logo" src="https://cdn.jsdelivr.net/gh/200-DevelopersFound/SnapStore/tyag/dadisa.png" alt="" />
+        <p class="">
+          Swa. Smt. Chand Devi Dugar
+        </p>
+      </div> -->
+      
+      <!-- <div class="subscribe-form">
+        <input
+          class="form-input"
+          type="email"
+          placeholder="Your email address"
+          required
+        />
+        <input type="submit" class="btn subscribe-btn" value="Subscribe" />
+      </div> -->
+    <!-- </section> -->
+    <!-- End: Subscribe Section
+
+    <!-- Download The App Section -->
+    <section id="download">
+      <div class="row">
+        <!-- <img class="app-logo" src="images/qr_code.png" alt="" /> -->
+        <img class="app-logo" src="images/comming_soon.png" alt="" />
+        <h2 class="stylish_heading">
+          Download the app <span class="red_dot">.</span>
+        </h2>
+        <p class="">
+          📲 Download "Tyag" now and let your spiritual practices thrive!
+        </p>
+
+        <a href="javascript:void()">
+          <img src="images/playstore.jpeg" alt=""
+        />
+        <img src="images/appstore.png" alt=""
+        /></a>
+      </div>
+    </section>
+    <!-- End: Download The App Section -->
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="links">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#features">FEATURES</a></li>
+          <li><a href="#testimonial">TESTIMONIAL</a></li>
+          <li><a href="#howto">HOW TO</a></li>
+          <li><a href="#download">DOWNLOAD</a></li>
+        </ul>
+      </div>
+      <!-- <div class="language-option">
+        <select name="Languages">
+          <option value="English" selected>ENGLISH</option>
+          <option value="বাংলা">বাংলা</option>
+          <option value="हिन्दी">हिन्दी</option>
+        </select>
+      </div> -->
+    </section>
+    <!-- End: Footer Section -->
+
+    <!-- Required JavaScript Files & CDN -->
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Main JS Files -->
+    <script src="js/essential.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
