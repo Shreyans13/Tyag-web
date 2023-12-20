@@ -28,12 +28,12 @@ Do you find yourself forgetting your precious Sogans, Jaap, and other vital Jain
 ## Screenshots
 
 ### Mobile
-<img src="images/screenshots/0.png" height="400em" /> <img src="images/screenshots/1.png" height="400em" /> 
-<img src="images/screenshots/2.png" height="400em" /> <img src="images/screenshots/3.png" height="400em" /> 
-<img src="images/screenshots/4.png" height="400em" /> <img src="images/screenshots/5.png" height="400em" /> 
+<img src="images/screenshots/4.png" height="400em" /> <img src="images/screenshots/0.png" height="400em" /> 
+<img src="images/screenshots/1.png" height="400em" /> <img src="images/screenshots/2.png" height="400em" /> 
+<img src="images/screenshots/3.png" height="400em" /> <img src="images/screenshots/5.png" height="400em" /> 
 <img src="images/screenshots/6.png" height="400em" /> <img src="images/screenshots/7.png" height="400em" /> 
 <img src="images/screenshots/8.png" height="400em" /> <img src="images/screenshots/9.png" height="400em" /> 
-  <img src="images/screenshots/12.png" height="400em" /> <img src="images/screenshots/10.png" height="400em" />
+<img src="images/screenshots/12.png" height="400em" /> <img src="images/screenshots/10.png" height="400em" />
 <img src="images/screenshots/15.png" height="400em" /> <img src="images/screenshots/13.png" height="400em" /> 
 <img src="images/screenshots/11.png" height="400em" /> <img src="images/screenshots/14.png" height="400em" /> 
 
