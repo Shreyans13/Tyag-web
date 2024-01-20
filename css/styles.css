@@ -366,6 +366,32 @@ section {
   position: relative;
 }
 
+#privacyHome {
+  background: #ff914d; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ff914d 37%,
+    #eb402c 98%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ff914d 37%,
+    #eb402c 98%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ff914d 37%,
+    #eb402c 98%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff914d', endColorstr='#eb402c',GradientType=0 ); /* IE6-9 */
+  background-repeat: no-repeat;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  position: relative;
+}
+
 /* Navbar Styling */
 nav {
   display: flex;
@@ -897,6 +923,10 @@ nav {
 
   #home {
     padding: 30px;
+  }
+  
+  #privacyHome {
+    padding: 15px;
   }
 
   #hero {

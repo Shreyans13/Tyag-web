@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyag - The fasting application</title>
+
+    <!-- Favicon -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="images/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- End: Favicon -->
+
+    <!-- Required Social Preview MetaTags -->
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Tyag - The Fasting Application" />
+    <meta
+      name="description"
+      content="Do you find yourself forgetting your precious Sogans, Jaap, and other vital Jain practices? Reconnect with your spiritual essence using the Tyag app – your ultimate companion for a mindful and disciplined spiritual journey."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://github.com/Shreyans13/tyag-webpage"
+    />
+    <meta property="og:title" content="Tyag - The Fasting Application" />
+    <meta
+      property="og:description"
+      content="Do you find yourself forgetting your precious Sogans, Jaap, and other vital Jain practices? Reconnect with your spiritual essence using the Tyag app – your ultimate companion for a mindful and disciplined spiritual journey."
+    />
+    <meta property="og:image" content="images/preview.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://github.com/Shreyans13/tyag-webpage"
+    />
+    <meta property="twitter:title" content="Tyag - The Fasting Application" />
+    <meta
+      property="twitter:description"
+      content="Do you find yourself forgetting your precious Sogans, Jaap, and other vital Jain practices? Reconnect with your spiritual essence using the Tyag app – your ultimate companion for a mindful and disciplined spiritual journey."
+    />
+    <meta property="twitter:image" content="images/preview.png" />
+
+    <!-- End of Required Social Preview MetaTags -->
+
+    <!-- LATO — Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End: LATO — Google Font -->
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <!-- End: Main CSS File -->
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Header Section -->
+    <header id="privacyHome">
+      <nav>
+        <div class="navbar-logo">
+          <a href="#" class="logo">Tyag</a>
+        </div>
+        <div id="navbar">
+          <ul>
+            <li><a href="#privacyHome">HOME</a></li>
+            <li><a href="https://shreyans13.github.io/Tyag-web/#features">FEATURES</a></li>
+            <li><a href="https://shreyans13.github.io/Tyag-web/#testimonial">TESTIMONIAL</a></li>
+            <li>
+              <a href="https://github.com/Shreyans13/tyag-web/"
+                >CONTRIBUTE</a
+              >
+            </li>
+            <li><a href="#features">PRIVACY POLICY</a></li>
+
+            <li><a href="https://shreyans13.github.io/Tyag-web/#download">DOWNLOAD</a></li>
+          </ul>
+        </div>
+        <div id="mobileNav">
+          <span onclick="openNav()">&#9776;</span>
+        </div>
+        <div id="myNav" class="mobileNavOverlay">
+          <div class="overlay-content">
+            <a href="javascript:void()" class="close-btn" onclick="closeNav()"
+              >&times;</a
+            >
+            <a href="https://shreyans13.github.io/Tyag-web/#privacyHome" onclick="closeNav()">HOME</a>
+            <a href="https://shreyans13.github.io/Tyag-web/#features" onclick="closeNav()">FEATURES</a>
+            <a href="https://shreyans13.github.io/Tyag-web/#testimonial" onclick="closeNav()">TESTIMONIAL</a>
+            <a
+              href="https://github.com/Shreyans13/tyag-web/"
+              onclick="closeNav()"
+              >CONTRIBUTE</a
+            >
+            <a href="#features" onclick="closeNav()">PRIVACY POLICY</a>
+            
+            <a href="https://shreyans13.github.io/Tyag-web/#download" onclick="closeNav()">DOWNLOAD</a>
+          </div>
+        </div>
+      </nav>
+
+      <button onclick="topFunction()" id="scrollUp" title="Go to top">
+        <svg
+          width="1.5rem"
+          height="1.5rem"
+          viewBox="0 0 16 16"
+          class="bi bi-arrow-up"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+          />
+        </svg>
+      </button>
+    </header>
+    <!-- End: Header Section -->
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class=" features-description ">
+        <h2 class="stylish_heading">
+          Privacy Policy <span class="red_dot">.</span>
+        </h2>
+        <ul>
+          <li>
+            <p class="little-description">
+              <b>Introduction</b><br />
+
+              Welcome to Tyag, a mobile application developed by Shreyans Jain
+              and Saransh Dugar. This Privacy Policy is designed to inform you
+              about the types of information we collect, how we use and protect
+              that information, and your choices regarding the collection and
+              use of your data. By using Tyag, you consent to the practices
+              outlined in this Privacy Policy.
+              <br />
+              <br />
+            </p>
+          </li>
+          <li>
+            <p class="little-description">
+              <b>Information We Collect & How we utilise it</b><br />
+              a. Personal Information:<br />
+
+              When you create an account, we may collect personal information
+              such as your name, email address, and phone number, apart from
+              recording your Oaths (Tyags & Sogans.) We may collect information
+              you provide when using the application, such as profile details,
+              including your name, date of birth, gender, Religion sect. This is
+              to provide you a personal experience to the app. The recording of
+              your oaths is a primary functionality of the app.
+              <br />b. Device Information:<br />
+
+              We automatically collect information about your device, including
+              device type, operating system, and unique device identifiers. This
+              is for necessary operation of the application.
+              <br />c. Usage Data:<br />
+
+              We currently are not gathering information about how you use Tyag,
+              including your interactions with the app, features, and content
+              accessed, however do plan to gather such information in the future
+              to provide you customised experience.
+              <!-- Summarizing How We Use Your Information -->
+            </p>
+          </li>
+          <li>
+            <p class="little-description">
+              <b>We use the collected information for the following purposes:</b
+              ><br />
+              To Record your Oaths / Pledges (Tyag / Sogan)<br />
+              To personalize your experience and display relevant content.<br />
+              To communicate with you about updates, promotions, and
+              account-related matters.<br />
+              To analyze usage patterns and improve our application (Future
+              implementation)<br />
+            </p>
+          </li>
+          <li>
+            <p class="little-description">
+              <b>Data Sharing and Disclosure</b><br />
+
+              a. Third-Party Services:<br />
+              We may share data with third-party services that help us operate,
+              analyze, and improve Tyag. These services are bound by their own
+              privacy policies.
+
+              <br />b. Legal Requirements:<br />
+
+              We may disclose your information if required by law or in response
+              to a legal request.
+            </p>
+          </li>
+          <li>
+            <p class="little-description">
+              <b>Security</b><br />
+              We prioritize the security of your information and employ
+              reasonable measures to protect against unauthorized access,
+              alteration, disclosure, or destruction.
+            </p>
+          </li>
+          <li>
+            <p class="little-description">
+              <b>Your Choices</b><br />
+
+              a. Account Information: <br />
+
+              You can review and update your account information within the
+              application. b. Marketing Communications:<br />
+
+              You can opt-out of receiving promotional emails by following the
+              instructions in the emails or adjusting your account settings.
+            </p>
+          </li>
+          <li>
+            <p class="little-description">
+              <b>Changes to this Privacy Policy</b><br />
+
+              We may update this Privacy Policy from time to time, and any
+              changes will be reflected on this page. Please check the effective
+              date at the top to see when the Privacy Policy was last updated.
+            </p>
+          </li>
+          <li>
+            <p class="little-description">
+              <b>Contact Us</b><br />
+
+              If you have any questions, concerns, or requests regarding this
+              Privacy Policy, please contact us at saranshdugarmi2@gmail.com. By
+              using Tyag, you agree to the terms outlined in this Privacy
+              Policy. 
+              <br />Shreyans Jain and Saransh Dugar Bangalore
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End: Features Section -->
+
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="links">
+        <ul>
+          <li><a href="#privacyHome">HOME</a></li>
+          <li><a href="https://shreyans13.github.io/Tyag-web/#features">FEATURES</a></li>
+          <li><a href="https://shreyans13.github.io/Tyag-web/#testimonial">TESTIMONIAL</a></li>
+          <li>
+            <a href="https://github.com/Shreyans13/tyag-web/"
+              >CONTRIBUTE</a
+            >
+          </li>
+          <li><a href="#features">PRIVACY POLICY</a></li>
+
+          <li><a href="https://shreyans13.github.io/Tyag-web/#download">DOWNLOAD</a></li>
+        </ul>
+      </div>
+      <!-- <div class="language-option">
+        <select name="Languages">
+          <option value="English" selected>ENGLISH</option>
+          <option value="বাংলা">বাংলা</option>
+          <option value="हिन्दी">हिन्दी</option>
+        </select>
+      </div> -->
+    </section>
+    <!-- End: Footer Section -->
+
+    <!-- Required JavaScript Files & CDN -->
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Main JS Files -->
+    <script src="js/essential.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
